@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 10px;
+    font-family: 'Catamaran', sans-serif;
+    font-family: 'Fredoka', sans-serif;
+    font-family: 'Raleway', sans-serif;
+}
+
+section{
+    background-color: #fafdfd;
+    display: flex;
+    justify-content: center;
+}

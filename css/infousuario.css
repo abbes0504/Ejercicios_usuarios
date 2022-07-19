@@ -1,0 +1,12 @@
+#root {
+    width: 40rem;
+    height: 45rem;;
+    border: solid 0.3rem #111213;
+    background-color: #F5C8BD;
+    margin-top: 15rem;
+    margin-left: 10rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

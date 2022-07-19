@@ -1,0 +1,89 @@
+.caja-padre{
+    width: 40rem;
+    height: 45rem;;
+    border: solid 0.3rem #111213;
+    background-color: #F5C8BD;
+    margin-top: 15rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.caja-padre_título{
+    width: 25rem;
+    height: 10rem;
+    border: solid 0.3rem #111213;
+    background-color: #FFE3B0;
+    margin-top: 5rem;
+    margin-bottom: 8rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.usuario0{
+    font-size: 5rem;
+    color: #111213;
+}
+
+.comandos{
+    width: 35rem;
+    height: 10rem;
+
+    display: flex;
+}
+
+.boton1{
+    width: 10rem;
+    height: 5rem;
+    border: solid 0.3rem #111213;
+    background-color: #EEF9BF;
+    margin: auto;
+    margin-top: 0.2rem;
+    cursor: pointer;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 2rem;
+    color: #111213;
+}
+
+.boton2{
+    width: 10rem;
+    height: 5rem;
+    border: solid 0.3rem #111213;
+    background-color: #EEF9BF;
+    margin: auto;
+    margin-top: 0.2rem;
+    cursor: pointer;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 2rem;
+    color: #111213;
+}
+
+
+#bt_user {
+    width: 27rem;
+    height: 5rem;
+    border: solid 0.3rem #111213;
+    background-color: #A9ECA2;
+    font-size: 2rem;
+    color: #111213;
+    margin-bottom: 5rem;
+    cursor: pointer;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#bt_user:hover {
+    background-color: #EEF9BF;
+}
