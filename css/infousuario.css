@@ -1,12 +1,18 @@
 #root {
     width: 40rem;
     height: 45rem;;
-    border: solid 0.3rem #111213;
-    background-color: #F5C8BD;
+    border: solid 0.3rem #262626;
+    background-color:#D22678;
     margin-top: 15rem;
     margin-left: 10rem;
+    padding: 2px;
 
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
     align-items: center;
+
+    color: #262626;
+    font-size: 13px;
+    text-align: center;
 }
