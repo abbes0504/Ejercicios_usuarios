@@ -12,38 +12,47 @@ export let user = [
     [106,	'jefuentes',    'gatitos123',   'Jossue Fuentes',   'Colegio Santa Catalina SCL',	            'jefuentes@scl.edu.gt', 	4568443548]
 ]
 
-//ELEMENTOS DEL DOM
 let root_usuario = document.querySelector("#root");
+let bt_user = document.getElementById("bt_user");
 
 
-// variable para saber la posicion dentro del arreglo
 let posicion = 0;
 
-// MOSTRAR EL PRIMER NOMBRE
-document.getElementById("caja").innerHTML = user[posicion][1];
 
-// FUNCIÓN PARA AVANZAR HACIA LA DERECHA
-const avanzar_derecha = () => { //Cuando declaramos una variable como "const", esta se considera una variable constante cuyo valor nunca cambiará.
-    if(posicion < user.length-1){ //La propiedad length especifica el número de argumentos esperados por la función.
+document.getElementById("caja_texto").innerHTML = user[posicion][1];
+
+
+const avanzar_derecha = () => { 
+    if(posicion < user.length-1){ 
         posicion++;
 }
-    document.getElementById("caja").innerHTML = user[posicion][1];
+    document.getElementById("caja_texto").innerHTML = user[posicion][1];
 }
 
-// FUNCIÓN PARA AVANZAR HACIA LA IZQUIERDA
+
 const avanzar_izquierda = () => {
     if(posicion > 0) {
         posicion--;
     }
-    document.getElementById("caja").innerHTML = user[posicion][1];
+    document.getElementById("caja_texto").innerHTML = user[posicion][1];
 }
 
-document.getElementById("bt_next").onclick = function (){
+document.getElementById("bt_siguiente").onclick = function (){
     avanzar_derecha();
 }
-document.getElementById("bt_back").onclick = function (){
+document.getElementById("bt_anterior").onclick = function (){
     avanzar_izquierda();
 }
 
-//INERT HTML ROOT
-root_usuario.innerHTML = '<h1>' + user_objeto[0].name + '</h1>'
+
+
+function mostrar(){
+    root.innerHTML = '<h1>' + user_objeto [posicion].id + '</h1>' +
+    '<h1>' + user_objeto [posicion].nikname + '</h1>' +
+    '<h1>' + user_objeto [posicion].name + '</h1>' +
+    '<h1>' + user_objeto [posicion].adress + '</h1>' +
+    '<h1>' + user_objeto [posicion].email + '</h1>' +
+    '<h1>' + user_objeto [posicion].phone + '</h1>';
+}
+
+bt_user.addEventListener('click', mostrar);
