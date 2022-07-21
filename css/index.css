@@ -1,8 +1,8 @@
 .caja-padre{
     width: 40rem;
     height: 45rem;;
-    border: solid 0.3rem #111213;
-    background-color: #F5C8BD;
+    border: solid 0.3rem #262626;
+    background-color:#D22678;
     margin-top: 15rem;
 
     display: flex;
@@ -13,8 +13,8 @@
 .caja-padre_título{
     width: 25rem;
     height: 10rem;
-    border: solid 0.3rem #111213;
-    background-color: #FFE3B0;
+    border: solid 0.3rem #262626;
+    background-color: #0C1E80;
     margin-top: 5rem;
     margin-bottom: 8rem;
 
@@ -25,7 +25,7 @@
 
 .usuario0{
     font-size: 5rem;
-    color: #111213;
+    color: #D3DDDC;
 }
 
 .comandos{
@@ -35,11 +35,11 @@
     display: flex;
 }
 
-.boton1{
+.botonuno{
     width: 10rem;
     height: 5rem;
-    border: solid 0.3rem #111213;
-    background-color: #EEF9BF;
+    border: solid 0.3rem #262626;
+    background-color: #612998;
     margin: auto;
     margin-top: 0.2rem;
     cursor: pointer;
@@ -48,15 +48,15 @@
     align-items: center;
     justify-content: center;
 
-    font-size: 2rem;
-    color: #111213;
+    font-size: 1.8rem;
+    color: #D3DDDC;
 }
 
-.boton2{
+.botondos{
     width: 10rem;
     height: 5rem;
-    border: solid 0.3rem #111213;
-    background-color: #EEF9BF;
+    border: solid 0.3rem #262626;
+    background-color: #612998;
     margin: auto;
     margin-top: 0.2rem;
     cursor: pointer;
@@ -65,18 +65,17 @@
     align-items: center;
     justify-content: center;
 
-    font-size: 2rem;
-    color: #111213;
+    font-size: 1.8rem;
+    color: #D3DDDC;
 }
-
 
 #bt_user {
     width: 27rem;
     height: 5rem;
-    border: solid 0.3rem #111213;
-    background-color: #A9ECA2;
+    border: solid 0.3rem #262626;
+    background-color: #612998;
     font-size: 2rem;
-    color: #111213;
+    color: #D3DDDC;
     margin-bottom: 5rem;
     cursor: pointer;
 
@@ -85,5 +84,5 @@
     align-items: center;
 }
 #bt_user:hover {
-    background-color: #EEF9BF;
+    background-color: #8948A6;
 }
